@@ -1,0 +1,3 @@
+To upload backend image use the command "gcloud builds submit -t gcr.io/gothic-booth-372913/backend"
+
+To To deploy the backend image use the command "gcloud run deploy --image gcr.io/gothic-booth-372913/backend --platform managed --port 80"
